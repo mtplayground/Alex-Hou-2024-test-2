@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Process Bar 2</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="/">Process Bar 2</a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <article class="copy-block">
+      <p class="eyebrow">About this deployment</p>
+      <h1>Production delivery through Sprite</h1>
+      <p>
+        This site is packaged as static assets and served directly by a minimal
+        HTTP server inside the dedicated sprite. That keeps the runtime simple,
+        removes framework-specific startup risk, and gives the verification
+        pipeline a stable target with explicit navigation and bundled CSS.
+      </p>
+      <p>
+        The deployment includes a durable sprite environment, a public URL, and
+        an HTTP service bound to port 8080.
+      </p>
+    </article>
+  </main>
+</body>
+</html>

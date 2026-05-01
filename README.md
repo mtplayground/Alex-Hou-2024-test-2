@@ -1,1 +1,3 @@
-# Alex-Hou-2024-test-2
+# Process Bar 2
+
+Static production site deployed through Sprite.
